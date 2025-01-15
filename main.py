@@ -1,8 +1,9 @@
 import socket
 import time
+import config
 
 # Configuration
-TARGET_IP = "192.168.0.46"
+TARGET_IP = config.IP_ADDRESS
 PORT_RANGE = range(1, 1024)
 SCAN_THRESHOLD = 5
 TIME_WINDOW = 10
